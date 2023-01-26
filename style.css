@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+
+.menu1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("rasmlar/bagraund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.big__box1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.big__box1 .box1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.big__box1 .box1 img {
+    width: 78%;
+}
+
+.big__box1 .box2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.big__box1 .box2 a {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+}
+
+.big__box1 .box3 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 80%;
+}
+
+
+.big__box2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.big__box2 .box1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.big__box2 .box2 {
+    width: 37%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.big__box2 .box2 .box2__item1 {
+    width: 40%;
+    height: 90%;
+    background: linear-gradient(0deg, rgba(232, 181, 57, 0.52), rgba(232, 181, 57, 0.52));
+    border: 5px solid #E8B539;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.big__box2 .box2 .box2__item2 {
+    width: 40%;
+    height: 90%;
+    border: 5px solid #E8B539;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.big__box3 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.big__box3 .box1 {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+
+}
+
+
+.big__box3 .box2 {
+    width: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.big__box3 .box2 img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.big__box4{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    transition: 2s all;
+}
+
+.big__box4 .box{
+    width: 50%;
+    height: 50%;
+    z-index: 11;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    background: linear-gradient(0deg, rgba(232, 181, 57, 0.52), rgba(232, 181, 57, 0.52));
+    border-radius: 15px;
+    border: 5px solid #E8B539;
+    position: relative;
+}
+.big__box4 .box .box__item{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.88);
+    border-radius: 5px;
+    z-index: 12;
+    box-shadow: 0 0 7px 1px #fa0101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.big__box4 .box .box__item:active{
+    box-shadow: none;
+}
+
+.active{
+    display: flex;
+}

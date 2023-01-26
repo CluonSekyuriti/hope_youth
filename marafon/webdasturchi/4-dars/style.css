@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("rasmlar/bagraund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #B1A42D;
+}
+.box1{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 100px;
+}
+.box1 p{
+    margin-right: 10px;
+}
+.box2{
+    width: 100%;
+    height: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 .box2__item{
+    width: 55%;
+    height: 90%;
+    background-color: #D9D9D9;
+}
+.box2 .box2__item video{
+    width: 100%;
+    height: 100%;
+}
+.box3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    position: relative;
+    padding: 10px;
+}
+.box3 a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+}

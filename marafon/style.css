@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("rasmlar/bagraund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+img{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.rasm4{
+    right: 0;
+}
+.box1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    color: #E8B539;
+}
+.box2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.box2__item1a{
+    width: 35%;
+    height: 60%;;
+    text-decoration: none;
+    color: black;
+}
+.box2__item1{
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+    background: linear-gradient(0deg, rgba(232, 181, 57, 0.52), rgba(232, 181, 57, 0.52));
+    border: 11px solid #E8B539;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.box2__item1 img{
+    width: 105%;
+    height: 81%;
+    position: absolute;
+    bottom: -11px;
+    z-index: 6;
+}
+.box2__item2a{
+    width: 35%;
+    height: 60%;
+    text-decoration: none;
+    color: black;
+}
+.box2__item2{
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+    background: linear-gradient(0deg, rgba(232, 181, 57, 0.52), rgba(232, 181, 57, 0.52));
+    border: 11px solid #E8B539;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.box2__item2 img{
+    width: 105%;
+    height: 81%;
+    position: absolute;
+    bottom: 0;
+    z-index: 6;
+}
+.box3{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.box3 a img{
+    position: relative;
+    margin-right: 20px;
+}
